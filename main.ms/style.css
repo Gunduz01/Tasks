@@ -8,3 +8,29 @@ html{
     font-size: 40px;
 
 }
+div{
+    background-color:khaki;
+    border-radius: 30px;
+    border: 10px solid black;
+    padding: 20px;
+}
+button
+{
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+ 
+button:hover
+{
+    background-color: lightgreen;
+    color: white;
+    transform: scale(1.1);
+}
+.no-padding{
+    padding: 0px;
+    margin: 0px;
+}
