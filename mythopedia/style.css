@@ -92,7 +92,7 @@ h1{
     margin: 10px;
 }
 
-.antikyunan {
+.antikyunan,.old-norse {
     width: fit-content; 
     height: 400px; 
     object-fit: cover; 
@@ -138,4 +138,8 @@ h4 a {
 h4:hover {
     transform: scale(1.05); 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); 
+}
+.norse-info, .greek-info{
+    text-align: center;
+    display: grid;
 }
