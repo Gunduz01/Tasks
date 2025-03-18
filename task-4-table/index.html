@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+.hard {
+  border: 5px solid black;
+  width: fit-content;
+}
+#table-1 {
+  border: 5px solid black;
+  width: fit-content;
+  color: #183d6e;
+  background-color: #e7e7e7;
+}
+#tab {
+  color: #183d6e;
+  background-color: #e4ecf8;
+}
+</style>
+<body>
+
+<h2>HTML table</h2>
+<div class="hard">
+<table>
+  <tr>
+    <th rowspan="2"></th>
+    <th colspan="2">Average</th>
+    <th rowspan="2">Red eyes</th>
+  </tr>
+  <tr>
+    <td>Height</td>
+    <td>weight</td>
+    
+    
+  </tr>
+  <tr>
+    <td>Males</td>
+    <td>1.9</td>
+    <td>0.003</td>
+    <td>40%</td>
+  </tr>
+  <tr>
+    <td>Females</td>
+    <td>1.7</td>
+    <td>0.002</td>
+    <td>43%</td>
+  </tr>
+</table>
+</div>
+<br />
+<div class="hard">
+<table>
+    <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+    </tr>
+    <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Day</th>
+        <th>Begin</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00 a.m.</td>
+        <td rowspan="2">5:00 p.m.</td>
+        <td>Validity:DTD and Relax NG</td>
+    </tr>
+    <tr>
+        <td>Introduction to XML</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Tuesday</td>
+        <td>8:00 a.m.</td>
+        <td>11:00 a.m.</td>
+        <td>Xpath</td>
+    </tr>
+    <tr>
+        <td>11:00 a.m.</td>
+        <td>2:00 p.m.</td>
+        <td rowspan="2">XSL Transformation</td>
+    </tr>
+    <tr>
+        <td>2:00 p.m.</td>
+        <td>5:00 p.m.</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>8:00 a.m.</td>
+        <td>12:00 p.m.</td>
+        <td>XSL Formatting Objects</td>
+    </tr>
+</table>
+</div>
+<br />
+
+<div class="hard">
+<table>
+    <tr>
+        <td></td>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <th>8:00 am</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="16">No Classes</td>
+    </tr>
+    <tr>
+        <th>9:00 am</th>
+        <td rowspan="2">Office hours</td>
+        <td></td>
+        <td rowspan="2">Office hours</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>10:00 am</th>
+
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>11:00 am</th>
+        <td rowspan="2">CS245A</td>
+        <td rowspan="2">CS301A</td>
+        <td rowspan="2">CS245A</td>
+        <td rowspan="2">CS301A</td>
+    </tr>
+    <tr>
+        <th>12:00 pm</th>
+    </tr>
+    <tr>
+        <th>1:00 pm</th>
+        <td colspan="4">Lunch</td>
+    </tr>
+    <tr>
+        <th>2:00 pm</th>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>3:00 pm</th>
+        <td>Office hours</td>
+        <td>Office hours</td>
+        <td></td>
+        <td>Office hours</td>
+    </tr>
+    <tr>
+        <th>4:00 pm</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>5:30 pm</th>
+        <td rowspan="3">CS505A</td>
+        <td rowspan="3">CS556AH1</td>
+        <td rowspan="3">CS556BH2</td>
+        <td></td>
+
+    </tr>
+    <tr>
+        <th>6:30 pm</th>
+        <td></td>   
+    </tr>
+    <tr>
+        <th>7:30 pm</th>
+        <td></td>        
+    </tr>
+    <tr>
+        <th>8:00 pm</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="5">CS556AH1 is first term course</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="5">CS556AH2 is first term course</td>
+    </tr>
+</table>
+</div>
+<br />
+
+<div class="hard">
+ <table>
+    <tr>
+        <th colspan="4">New Employees Records</th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th colspan="2">Jobs</th>
+        <th>Working Experience</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Software Engineer</td>
+        <td>Data Analyst</td>
+        <td rowspan="2">5 Years</td>
+    </tr>
+    <tr>
+        <td>Ale</td>
+        <td colspan="2">Senior Web developer</td>
+    </tr>
+    <tr>
+        <td>Jack</td>
+        <td>Junior Tech Writer</td>
+        <td>Blogger</td>
+        <td>6 Months</td>
+    </tr>
+ </table>
+</div>
+<br />
+<div class="hard">
+<table>
+    <tr>
+        <td rowspan="3">Salam Aleykum</td>
+        <td rowspan="2">Salam Aleykum</td>
+        <td colspan="2">Salam Aleykum</td>
+        <td rowspan="3">Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td colspan="2">Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td colspan="2">Salam Aleykum</td>
+        <td colspan="3">Salam Aleykum</td>
+        <td rowspan="3">Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td colspan="2">Salam Aleykum</td>
+        <td rowspan="2">Salam Aleykum</td>
+        <td colspan="2">Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td colspan="2">Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td rowspan="6">Salam Aleykum</td>
+        <td rowspan="4">Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td colspan="3">Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Salam Aleykum</td>
+        <td rowspan="5",colspan="3">Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td rowspan="4">Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td colspan="1">Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td colspan="3">Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td rowspan="2">Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td rowspan="5", colspan="3">Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td colspan="2", rowspan="2">Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Salam Aleykum</td>
+        <td rowspan="3">Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+    </tr>
+    <tr>
+        <td colspan="">Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td>Salam Aleykum</td>
+        <td colspan="2">Salam Aleykum</td>
+    </tr>
+</table>
+</div>
+<br />
+<div class="hard">
+    <table>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thorsday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td colspan="5">Lunch</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td rowspan="2">Sport</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            
+        </tr>
+    </table>
+</div>
+<br />
+
+    <table>
+        <thead id="table-1">
+            <th>Qatarin nomresi</th>
+            <th>Baki</th>
+            <th>Bileceri</th>
+            <th>Xirdalan</th>
+            <th>Sumqayit</th>            
+        </thead>
+        <tr id="tab">
+            <td>№ 6001</td>
+            <td>07:20</td>
+            <td>07:34</td>
+            <td>07:42</td>
+            <td>08:00</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6003</td>
+            <td>07:45</td>
+            <td>07:59</td>
+            <td>08:06(Xırdalan)</td>
+            <td>-</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6005</td>
+            <td>08:10</td>
+            <td>08:24</td>
+            <td>08:31(Xırdalan)</td>
+            <td>-</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6007</td>
+            <td>08:30</td>
+            <td>08:44</td>
+            <td>08:52</td>
+            <td>09:10</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6015</td>
+            <td>17:00</td>
+            <td>17:14</td>
+            <td>17:22</td>
+            <td>17:40</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6017</td>
+            <td>17:25</td>
+            <td>17:39</td>
+            <td>17:47</td>
+            <td>18:05</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6019</td>
+            <td>17:50</td>
+            <td>18:04</td>
+            <td>18:11(Xırdalan)</td>
+            <td>-</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6061</td>
+            <td>18:10</td>
+            <td>-</td>
+            <td>-</td>
+            <td>18:50 (Ekspres)</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6021</td>
+            <td>18:25</td>
+            <td>18:39</td>
+            <td>18:47</td>
+            <td>19:05</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6023</td>
+            <td>18:35</td>
+            <td>18:49</td>
+            <td>18:57</td>
+            <td>19:15</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6025</td>
+            <td>18:50</td>
+            <td>19:04</td>
+            <td>19:12</td>
+            <td>19:30</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6027</td>
+            <td>19:05</td>
+            <td>19:19</td>
+            <td>19:27</td>
+            <td>19:45</td>
+        </tr>
+        <tr id="tab">
+            <td>№ 6029</td>
+            <td>19:35</td>
+            <td>19:49</td>
+            <td>19:57</td>
+            <td>20:15</td>
+        </tr>
+    </table>
+    <br />
+    <div class="hard">
+    <h2><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAABHlJREFUeJztml2IVVUUx39rSBkyC5OCiEBfBNNeLAgTiejYg7umIpDKQfumjwchKkvCxMgKKgKfrCmZwqRvsDaVLQbLmkyFVJiipBgKIiow+tA+rN3DuTOMdu85a917TwadH9y3/157rXXXPmftvQ/U1NTU1NTU1NTU1NT8D5EqjKaQTQbmAz0G+SRgu0Q9VGCvBzgX6DW6MAnYJ1G/KRMeZzToZSWw1qjdAZxfolkCbHbM/wswDyhNQNcrIIVsLrAX278PMEWiHiywNx34DDjZ4cZiifqGRWh10sOQw25fUfANtuEL/lFr8NDlBKSQPQ6cYpQ/I1FfK7G3ApjrcGFUot7h0HcvASlkC4EVRvn+Mm0K2ZnAYw4XDgP9Dj3QpQSkkJ0AbHIM6ZeoPxTY6wGexeffOon6vkMPzgmKeBI4w6hdJVF3lmjWkz/FrQxJ1Psc+nE6TkAKWT9wpVE+IlEfLLEXgFsdLvwKXOvQH0FHCUghm0r+71s4BFxh0Hne9wDXSdQvnWPG6bQCBrF3Z/dK1E+LBClkm4CpjvmHJKo3YUfQdgJSyG4BLjfKX5CohU/0FLJrgKsdLnwNLHbom9JWAlLIZgMPGeXfAjeX2JsFPOJ04waJ+ptzzD9otwI2Aicatcsk6oESzQAw3TH/ek+3V4Q7ASlkK8l3ZhY2S9S3DPYWOlz4HLjdoS/EtRlqlP7HRvl+iTqri/bGOFWifucc0xJzBaSQHQ+8aJT/ASw32HvZOn+Du7sZPPiWwCpgjlG7RqJ+UKK5H5jtmP89ifqwQ2/CtARSyGYA+7C9o3dK1MJnRArZImCrZe4GPwNzOml4WmGtgAXYgv8LuKBIkEI2DftSGmN5FcGD/UhsmlG3ETirsb6bzXUQWA2cZLQHMCBRX3HoXVgT8KdRd33j14wvyM8BLjLaAvhRot7o0LuxLoGPOphjFOgj7x0873uwbZ46wpQAiboDeNVpew9wqUSd2Tj6eh1otjRasU6iqnNON57X4G2A5R28F7gYmCdRtwCkkK3F3j1CflRuPVbvCG8neB7Q6tjpK+AB4CmJenjCmPmNMda5fidP3ojHt3Zx7QUk6jB5AzORA8BNwAyJumFi8A224Ev0nf9W8NDmxUgK2fPkvcEaiTpQoBsEljlMD0nUC9vxqV3avRpbCkwuudHpwxf89/gORLpCVZejpwG7gNMdw5ZK1Oeq8KeIKq7GAJ7GF/zgsQgeqrkcvQxfzzAqUWd22w8rVVSA50wf8p7hmFHF9wHnOLRPSNSRFLKi88Ve4KeiDyg6oYolkKxS8h6i2Z8g5F959JJvne+SqKNdcfAoqqiA3diqQCi+93+H/B5xuCtetaCKBGzAtwyORskbLPdNbztU1QfsBs52DhsmD/ztClxqSVUfSS0hP0OcYtB+SF7qQxX5UkglFQDjX4y8WyDZA9wjUd+sygcLVXWCSNTtQLPvdXYBl5BveY9p8FBhBYyRQrYVWAR8AqyWqC9VPaeHqp4BE7kKWDB2OlRTU1NTU1NT81/hbx6WOVi9QQlkAAAAAElFTkSuQmCC" alt="Laliga">Laliga Scoreboard</h2>
+    <table>
+        <tr><th>Sira</th>
+            <th>Komanda</th>
+            <th>Oynadigi oyun</th>
+            <th>Qalibiyyet</th>
+            <th>Beraberlik</th>
+            <th>Meglubiyyet</th>
+            <th>Atilan qol</th>
+            <th>Yeyilen qol</th>
+            <th>Ferq</th>
+            <th>Xal</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/paYnEE8hcrP96neHRNofhQ_48x48.png" alt="Barcelona">Barcelona</td>
+            <td>27</td>
+            <td>19</td>
+            <td>3</td>
+            <td>5</td>
+            <td>75</td>
+            <td>27</td>
+            <td>48</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_48x48.png" alt="Real Madrid">Real Madrid</td>
+            <td>28</td>
+            <td>18</td>
+            <td>6</td>
+            <td>4</td>
+            <td>59</td>
+            <td>27</td>
+            <td>32</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/pEqmA7CL-VRo4Llq3rwIPA_48x48.png" alt="Atletiko Madrid">Atletiko Madrid</td>
+            <td>28</td>
+            <td>16</td>
+            <td>8</td>
+            <td>4</td>
+            <td>46</td>
+            <td>22</td>
+            <td>24</td>
+            <td>56</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/OSL_5Zm6kYPP1J17Bo5uDA_48x48.png" alt="Athletic Bilbao">Athletic Bilbao</td>
+            <td>28</td>
+            <td>14</td>
+            <td>10</td>
+            <td>4</td>
+            <td>46</td>
+            <td>24</td>
+            <td>22</td>
+            <td>52</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/WKH7Ak5cYD6Qm1EEqXzmVw_48x48.png" alt="Villarreal">Villarreal</td>
+            <td>27</td>
+            <td>12</td>
+            <td>8</td>
+            <td>7</td>
+            <td>49</td>
+            <td>38</td>
+            <td>11</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/XDClkrMKtkm3UTP2YKN6oQ_48x48.png" alt="Real Betis">Real Betis</td>
+            <td>28</td>
+            <td>12</td>
+            <td>8</td>
+            <td>8</td>
+            <td>38</td>
+            <td>35</td>
+            <td>3</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/Ss21P4CUmigjrEtcoapjVg_48x48.png" alt="Mallorca">Mallorca</td>
+            <td>28</td>
+            <td>11</td>
+            <td>7</td>
+            <td>10</td>
+            <td>28</td>
+            <td>34</td>
+            <td>-6</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/wpdhixHP_sloegfP0UlwAw_48x48.png" alt="Celta">Celta</td>
+            <td>28</td>
+            <td>11</td>
+            <td>6</td>
+            <td>11</td>
+            <td>41</td>
+            <td>41</td>
+            <td>0</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/i5LifmxEVIl0sbvIysiyhw_48x48.png" alt="Rayo Vallecano">Rayo Vallecano</td>
+            <td>28</td>
+            <td>9</td>
+            <td>10</td>
+            <td>9</td>
+            <td>31</td>
+            <td>31</td>
+            <td>0</td>
+            <td>37</td>
+        </tr>
+        
+        <tr>
+            <td>10.</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/hCTs5EX3WjCMC5Jl3QE4Rw_48x48.png" alt="Sevilla"> Sevilla</td>
+            <td>28</td>
+            <td>9</td>
+            <td>9</td>
+            <td>10</td>
+            <td>32</td>
+            <td>37</td>
+            <td>-5</td>
+            <td>36</td>
+        </tr>
+    </table>
+</div>
+<br />
+<div class="hard">
+    <h2><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAABHlJREFUeJztml2IVVUUx39rSBkyC5OCiEBfBNNeLAgTiejYg7umIpDKQfumjwchKkvCxMgKKgKfrCmZwqRvsDaVLQbLmkyFVJiipBgKIiow+tA+rN3DuTOMdu85a917TwadH9y3/157rXXXPmftvQ/U1NTU1NTU1NTU1NT8D5EqjKaQTQbmAz0G+SRgu0Q9VGCvBzgX6DW6MAnYJ1G/KRMeZzToZSWw1qjdAZxfolkCbHbM/wswDyhNQNcrIIVsLrAX278PMEWiHiywNx34DDjZ4cZiifqGRWh10sOQw25fUfANtuEL/lFr8NDlBKSQPQ6cYpQ/I1FfK7G3ApjrcGFUot7h0HcvASlkC4EVRvn+Mm0K2ZnAYw4XDgP9Dj3QpQSkkJ0AbHIM6ZeoPxTY6wGexeffOon6vkMPzgmKeBI4w6hdJVF3lmjWkz/FrQxJ1Psc+nE6TkAKWT9wpVE+IlEfLLEXgFsdLvwKXOvQH0FHCUghm0r+71s4BFxh0Hne9wDXSdQvnWPG6bQCBrF3Z/dK1E+LBClkm4CpjvmHJKo3YUfQdgJSyG4BLjfKX5CohU/0FLJrgKsdLnwNLHbom9JWAlLIZgMPGeXfAjeX2JsFPOJ04waJ+ptzzD9otwI2Aicatcsk6oESzQAw3TH/ek+3V4Q7ASlkK8l3ZhY2S9S3DPYWOlz4HLjdoS/EtRlqlP7HRvl+iTqri/bGOFWifucc0xJzBaSQHQ+8aJT/ASw32HvZOn+Du7sZPPiWwCpgjlG7RqJ+UKK5H5jtmP89ifqwQ2/CtARSyGYA+7C9o3dK1MJnRArZImCrZe4GPwNzOml4WmGtgAXYgv8LuKBIkEI2DftSGmN5FcGD/UhsmlG3ETirsb6bzXUQWA2cZLQHMCBRX3HoXVgT8KdRd33j14wvyM8BLjLaAvhRot7o0LuxLoGPOphjFOgj7x0873uwbZ46wpQAiboDeNVpew9wqUSd2Tj6eh1otjRasU6iqnNON57X4G2A5R28F7gYmCdRtwCkkK3F3j1CflRuPVbvCG8neB7Q6tjpK+AB4CmJenjCmPmNMda5fidP3ojHt3Zx7QUk6jB5AzORA8BNwAyJumFi8A224Ev0nf9W8NDmxUgK2fPkvcEaiTpQoBsEljlMD0nUC9vxqV3avRpbCkwuudHpwxf89/gORLpCVZejpwG7gNMdw5ZK1Oeq8KeIKq7GAJ7GF/zgsQgeqrkcvQxfzzAqUWd22w8rVVSA50wf8p7hmFHF9wHnOLRPSNSRFLKi88Ve4KeiDyg6oYolkKxS8h6i2Z8g5F959JJvne+SqKNdcfAoqqiA3diqQCi+93+H/B5xuCtetaCKBGzAtwyORskbLPdNbztU1QfsBs52DhsmD/ztClxqSVUfSS0hP0OcYtB+SF7qQxX5UkglFQDjX4y8WyDZA9wjUd+sygcLVXWCSNTtQLPvdXYBl5BveY9p8FBhBYyRQrYVWAR8AqyWqC9VPaeHqp4BE7kKWDB2OlRTU1NTU1NT81/hbx6WOVi9QQlkAAAAAElFTkSuQmCC" alt="laliga">Statistika</h2>
+    <table>
+        <thead>
+            <td>Oyuncu</td>
+            <td>Goal+Asist</td>
+        </thead>
+        <tr>
+            <td><img src="https://file.mackolikfeeds.com/people/41310" alt="leva">Robert Levandovski</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td><img src="https://file.mackolikfeeds.com/people/377149" alt="kylian">Kylian Mbappe</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td><img src="https://file.mackolikfeeds.com/people/429714" alt="rapha">Raphina</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td><img src="https://file.mackolikfeeds.com/teams/6f88337d-aae5-19e5-f761-c7e40de0c264" alt="budimir">A.Budimir</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td><img src="https://file.mackolikfeeds.com/teams/96d96f10-ecae-3f39-3cdb-7750555fe084" alt="yamal">L.Yamal</td>
+            <td>17</td>
+        </tr>
+    </table>
+</div>
+<br />
+<div class="hard">
+    <table>
+        <thead>
+            <th>Question No.</th>
+            <th>Question</th>
+            <th>Answer</th>
+            <th>Marks per Answer</th>
+            <th>Total Marks</th>
+        </thead>
+        <tr>
+            <td rowspan="3">1</td>
+            <td rowspan="3">Name three features in a ROM</td>
+            <td>A</td>
+            <td></td>
+            <td rowspan="3">5</td> 
+        </tr>
+        <tr>
+            <td>B</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Here is a single answer</td>
+            <td>True</td>
+            <td></td>
+            <td>5</td>
+        </tr>            
+    </table>
+</div>
+<br />
+<div class="hard">
+    <table>
+        <thead>
+            <th colspan="3">Purchase Order</th>
+            <th>Tutorial Brain-10 Oct</th>
+        </thead>
+        <tr>
+            <td colspan="2"><b>Vendor:</b> <br />
+                    ABC XYZ LTD <br />
+                    DUMMY STREET <br />
+                    BUILDING123 <br />
+                    HAZARIBAGH, JHARKEND, 825301</td>
+            <td colspan="2"><b>Ship:</b> <br />
+                Msi Donhi <br />
+                DUMMY STREET <br />
+                BUILDING123 <br />
+                HAZARIBAGH, JHARKEND, 825301</td>
+        </tr>
+        <tr>
+            <td>Qty</td>
+            <td>Itemcode</td>
+            <td>Description</td>
+            <td>Unit Price</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>IABCDE</td>
+            <td>Pencils</td>
+            <td>20.00</td>
+        </tr>
+        <tr>
+            <td>1000</td>
+            <td>IN877</td>
+            <td>Notebooks</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td>500</td>
+            <td>IP8675</td>
+            <td>Pens</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td colspan="3">Subtotal</td>
+            <td>190</td>
+        </tr>
+        <tr>
+            <td colspan="2">Gst</td>
+            <td>5%</td>
+            <td>9.50</td>
+        </tr>
+        <tr>
+            <td colspan="3">Grand Total</td>
+            <td>$ 199.50</td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
