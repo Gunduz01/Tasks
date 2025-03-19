@@ -1,0 +1,17 @@
+table, th, td {
+    border:1px solid black;
+  }
+  .hard {
+    border: 5px solid black;
+    width: fit-content;
+  }
+  #table-1 {
+    border: 5px solid black;
+    width: fit-content;
+    color: #183d6e;
+    background-color: #e7e7e7;
+  }
+  #tab {
+    color: #183d6e;
+    background-color: #e4ecf8;
+  }

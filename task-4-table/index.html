@@ -1,24 +1,8 @@
 <!DOCTYPE html>
 <html>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-.hard {
-  border: 5px solid black;
-  width: fit-content;
-}
-#table-1 {
-  border: 5px solid black;
-  width: fit-content;
-  color: #183d6e;
-  background-color: #e7e7e7;
-}
-#tab {
-  color: #183d6e;
-  background-color: #e4ecf8;
-}
-</style>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
 <body>
 
 <h2>HTML table</h2>
@@ -742,7 +726,85 @@ table, th, td {
         </tr>
     </table>
 </div>
-
+<br />
+<div class="hard">
+    <table>
+        <thead>
+            <th colspan="4">List</th>
+        </thead>
+        <thead>
+            <th colspan="2">Pros</th>
+            <th colspan="2">Cons</th>
+        </thead>
+        <tr>
+            <td rowspan="3">Pro 1</td>
+            <td></td>
+            <td>Con 1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Subpro</td>
+            <td rowspan="4">Con 2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Subpro 2</td>
+            <td>Subcon 1</td>
+        </tr>
+        <tr>
+            <td>Pro 2</td>
+            <td></td>
+            <td>Subcon 2</td>
+        </tr>
+        <tr>
+            <td>Pro 3</td>
+            <td></td>
+            <td>SubCon 3</td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td rowspan="3"></td>
+            <td rowspan="3">Con 3</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Subcon 1</td>
+        </tr>
+        <tr>
+            <td>Subcon 2</td>
+        </tr>
+    </table>
+</div>
+<br />
+<div class="hard">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2">Student</th>
+                <th colspan="4">Exam</th>
+                <th colspan="4">2nd Exam</th>
+                <th colspan="2" rowspan="2">Final Grade</th>
+            </tr>
+            <tr>
+                <th>Q1</th>
+                <th>Q2</th>
+                <th>Q3</th>
+                <td rowspan="2">Grade</td>
+                <th>Q1</th>
+                <th>Q2</th>
+                <th>Q3</th>
+                <th rowspan="2">Grade</th>  
+            </tr>
+        </thead>
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <td>8</td>
+            <td>7</td>
+            <td>5</td>
+        </tr>
+    </table>
+</div>
 
 
 
