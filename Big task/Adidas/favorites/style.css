@@ -1,0 +1,509 @@
+html{
+    font-family: 'AdihausDIN', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Dikeyde ortalar */
+    justify-content: space-between; /* Logo ve menü arasında boşluk bırakır */
+    padding: 10px 20px;
+    background-color: #fff; /* Arka plan rengi */
+}
+
+.top>ul{
+    display: flex;
+    align-items: end;
+    list-style: none;
+    justify-content: right;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.top>ul a{
+    text-decoration: none;
+    margin-top: 7px;
+    font-size: 17px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center; /* Logo ve menüyü dikeyde hizalar */
+    justify-content: center; /* Menü öğelerini yatayda ortalar */
+    width: 100%; /* Navbar genişliği */
+}
+
+.adidas-logo {
+    height: 100px; /* Logonun boyutunu ayarlar */
+    margin-left: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none; /* Varsayılan madde işaretlerini kaldırır */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Menü öğelerini yatayda ortalar */
+    align-items: center; /* Menü öğelerini dikeyde ortalar */
+    gap: 20px; /* Menü öğeleri arasında boşluk bırakır */
+}
+
+.navbar ul a,*{
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    color: black; /* Yazı rengi */
+    font-family: 'AdihausDIN', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.li-red {
+    color: red; /* "SALE" için kırmızı renk */
+    font-weight: bold;
+}
+
+.ikon1{
+    height: 40px;
+    cursor: pointer;
+}
+
+.images{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: -17px;
+    gap: 10px;
+}
+
+.label{
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+    height: 40px;
+}
+
+.background-img{
+    display: block;
+    background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_1920,w_1920/giftcardupdate_small_mh_d_0b3c19c3b3.jpg);
+    height: 80vh;
+    width: 400vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-left: 4.3vh;
+}
+
+.spanimg, .spanimg1{
+    background-color: white;
+    position: relative;
+    top: 20vh;
+    left: 80px;
+    padding: 10px 15px;
+    margin: 0px;
+}
+
+.spanimg1{
+position: relative;
+top: 16vh;
+}
+
+.arrow{
+    height: 25px;
+}
+
+.linkbutton{
+    background-color:#fff;
+    position: relative;
+    left: 50px;
+    top: 22vh;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.searchimg{
+    margin-left: 20px;
+}
+
+.carusel-ul li a img{
+    width: 295.28px;
+    height: 295.28px;    
+}
+
+.carusel-ul{
+    display: flex;
+    list-style: none; /* Varsayılan madde işaretlerini kaldırır */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Menü öğelerini yatayda ortalar */
+    align-items: center; /* Menü öğelerini dikeyde ortalar */
+    gap: 20px;
+}
+
+.carusel-h2{
+    position: relative;
+    left: 120px;
+    font-size: 1.5em;
+    font-style: bold;
+}
+
+.carusel-buton{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.tabs-view{
+    position: relative;
+    left: 140vh;
+    top: 60px;
+    border-bottom: 3px solid black;
+}
+
+.tabsdif{
+    background-color:black;
+}
+
+.tabsdif1{
+    color: white;
+}
+
+.tabs button{
+    position: relative;
+    left: 120px;
+    top: 60px;
+}
+
+.tabs{
+    position: relative;
+    left: -89px;
+    padding: 10px;
+}
+
+.price{
+    background-color: white;
+    position: relative;
+    top: -320px;
+    left: 10px;
+    width: fit-content;  
+    margin: 0%;
+}
+
+.price p{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: -0px;
+}
+
+.carusel-ul1{
+    display: flex;
+    list-style: none; /* Varsayılan madde işaretlerini kaldırır */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Menü öğelerini yatayda ortalar */
+    align-items: center; /* Menü öğelerini dikeyde ortalar */
+    gap: 20px;
+    position: relative;
+    top: 110px;
+}
+
+.video-carusel-ul{
+    display: flex;
+    list-style: none; /* Varsayılan madde işaretlerini kaldırır */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Menü öğelerini yatayda ortalar */
+    align-items: center; /* Menü öğelerini dikeyde ortalar */
+    gap: 20px;
+}
+
+.popular{
+    width: fit-content;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.popular h2{
+    font-size: 1.5em;
+}
+
+.keyword{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.keywords a b{
+    font-size: 1.5em;
+    position: relative;
+    left: 80vh;
+    border-bottom: 3px solid black;
+}
+
+.keywords{
+    margin-bottom: 10px;
+    position: relative;
+    top: 60px;
+}
+
+.carusel-3{
+    position: relative;
+    top: 100px;
+}
+
+.caruselimg{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.caruselspan{
+    background-color: white;
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+
+.header-container {
+    display: flex; /* Flexbox düzenini etkinleştirir */
+    gap: 100px; /* Öğeler arasında boşluk bırakır */
+    align-items: flex-start; /* Öğeleri dikeyde hizalar */
+    flex-wrap: wrap; /* Taşan öğeleri bir sonraki satıra geçirir */
+    margin-top: 20px; /* Üstten boşluk ekler */
+    position: relative;
+    top: 200px;
+    justify-content: center; 
+    padding-bottom: 300px;
+}
+
+.header1 {
+    background-color: #f9f9f9; /* Arka plan rengi (isteğe bağlı) */
+    border: none;
+}
+
+.ulmenu{
+    padding-bottom: 70px;
+}
+
+.ulmenu ul {
+    list-style: none; /* Varsayılan madde işaretlerini kaldırır */
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.header1 h2{
+    font-size: 1.5em;
+}
+
+.text-container{
+    background-color: black;
+    padding: 100px;
+}
+
+.text1 h1,p{
+    color: #f9f9f9;
+    position: relative;
+    top: 120px;
+}
+
+.text1 h1{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 2em;
+    background-color: black;
+}
+
+.adidas-text-logo{
+    position: relative;
+    top: 100px;
+    left: 850px;
+    height: 100px;
+    background-color: black;
+}
+
+.joinclub{
+    background-color: yellow;
+    padding: 50px;
+}
+
+.joinclub h2{
+    display: inline-block;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.textclub{
+    text-align: center;
+}
+
+.textbutton{
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    margin-left: 50px;
+    border: 2px solid black;
+}
+
+.esas{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.esasli{
+    display: inline-block;
+}
+
+.esasli h1{
+    font-size: 30px;
+}
+
+.esasul, .esasul li{
+    list-style: none;
+}
+
+.esasimg{
+    width: 45px;
+    height: 45px;
+}
+
+.footer-bottom ul li{
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -50px;
+}
+
+.footer-bottom{
+    background-color: #282C31;
+    text-align: center;
+    padding: 100px;
+    background-size: cover;
+}
+
+.footer-bottom ul{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    left: 550px;
+}
+
+.footercenter span{
+    color: white;
+}
+
+.sectionul li{
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.sectionul{
+    margin: 0;
+    text-align: center;
+    background-color: #282C31;
+    padding: 100px;
+}
+
+.sectionul li a{
+    width: 180px;
+    height: 180px;
+    margin: 0;
+    padding: 10px;
+}
+
+.sectionul li p{
+    position: relative;
+    top: -10px;
+    background-color: #fff;
+    color: black;
+    left: 5px;
+    padding: 10px;
+}
+
+.wrap{
+    padding-top: 100px;
+}
+
+.textinfo h1, .textinfo p{
+    color: black;
+    text-align: center;
+}
+
+.textinfo p{
+    position: relative;
+    top: 20px;
+}
+
+.shopnow ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.shopnow ul li a img{
+    width: 400px;
+    height: 500px;  
+}
+
+.shopnow ul{
+    text-align: center;
+}
+
+.shopnow1 span{
+    border-bottom: 2px solid black;
+}
+
+.shopnow1 p{
+    position: relative;
+    top: 0px;
+    margin: 30px;
+}
+
+.giftspan h4{
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 50px;
+}
+
+.giftspan h2{
+    position: relative;
+    left: 70px;
+    padding-top: 150px;
+}
+
+.giftdiv{
+    padding-bottom: 150px;
+}
+
+.wishlisttext{
+    background-image: url(data:image/webp;base64,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);
+    width: 1500px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.wishlisttext h1, .wishlisttext ul li, .wishlist h1, .wishlist p{
+    color: black;
+    margin-left: 200px;
+}
+
+.wishlistapp-text h1{
+    color: black;
+}
+
+.wishlist h1, p{
+    position: relative;
+    top: 30px;
+}
+
+.wishlistimg{
+    position: relative;
+    left: 700px;
+    top: -120px;
+}
