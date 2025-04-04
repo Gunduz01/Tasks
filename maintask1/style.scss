@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 200px;
+    gap: 50px;
+    h1{
+        font-size: 2em;
+    }
+    .first-btn button, .third-main-contact button{
+        text-transform: uppercase;
+        background-color: #23A6F0;
+        border-radius: 5px;
+        padding: 20px;
+        color: white;
+    }
+    .first-ul ul{
+        display: flex;
+        gap: 50px;
+        list-style: none;
+        li{
+            display: inline-block;
+        }
+    }
+}
+
+.second{
+    background-image: url(./images/background1.svg);
+    width: 100%;
+    height: 446px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    .second-h1{
+        h1{
+            font-size: 2em;
+        }
+    }
+    .second-p-blue{
+        color: #23A6F0;
+    }
+}
+
+.third{
+    background-image: url(./images/background\ 2.svg);
+    color: white;
+    width: 100%;
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    .third-main{
+        display: grid;
+        .third-dis{
+            display: flex;
+            align-items: right end center;
+            justify-content: center;
+            gap: 50px;
+        }
+        .third-main-contact{
+            display: flex;
+            gap: 50px;
+            justify-content: bottom;
+            flex-direction: column;
+            text-align: left;
+            align-items: center;
+            width: fit-content;
+        }
+    }
+}
+
+.third-main-contact button{
+    text-transform: uppercase;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    width: fit-content;
+}
+
+.p-line{
+    border-bottom: 2px solid #23A6F0;
+}
+
+.third-main-paris, .third-main-newyork, .third-main-berlin, .third-main-london{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.3em;
+}
+
+.fourth{
+    background-color: #2A7CC7;
+    display: flex;
+    color: white;
+    .fourth-text{
+        display: flex;
+        width: fit-content;
+        gap: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        text-align: left;
+        width: 100%;
+        padding-left: 100px;
+        button{
+            border: 1px solid white;
+            background-color: #2A7CC7;
+            width: fit-content;
+            color: white;
+            border-radius: 5px;
+            padding: 20px 40px 20px 40px;
+        }
+    }
+}
