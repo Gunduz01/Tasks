@@ -1,0 +1,234 @@
+.product, .product-2, .product-3 {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #737373;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-left: 170px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.product-div-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
+.product-div-first .product-first-img {
+  background-image: url(./images/picture-1.svg);
+  width: 465px;
+  height: 300px;
+}
+.product-div-first .product-first-img button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.1em;
+  margin: 30px 0 0 20px;
+}
+.product-div-first .product-first-text {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.product-div-first .product-first-text .google {
+  color: #8EC2F2;
+}
+.product-div-first .product-first-text-2 {
+  padding-left: 20px;
+}
+.product-div-first .product-first-text-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.product-div-first .product-first-text-4 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.product-second-img {
+  background-image: url(./images/picture-2.svg);
+  width: 465px;
+  height: 300px;
+}
+.product-second-img button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.1em;
+  margin: 30px 0 0 20px;
+}
+
+.product-third-img {
+  background-image: url(./images/picture-3.svg);
+  width: 465px;
+  height: 300px;
+}
+.product-third-img button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.1em;
+  margin: 30px 0 0 20px;
+}
+
+.product-fourth-img {
+  background-image: url(./images/picture-4.svg);
+  width: 465px;
+  height: 300px;
+}
+.product-fourth-img button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.1em;
+  margin: 30px 0 0 20px;
+}
+
+.product-fivth-img {
+  background-image: url(./images/picture-5.svg);
+  width: 465px;
+  height: 300px;
+}
+.product-fivth-img button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.1em;
+  margin: 30px 0 0 20px;
+}
+
+.product-sixth-img {
+  background-image: url(./images/picture-6.svg);
+  width: 465px;
+  height: 300px;
+}
+.product-sixth-img button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.1em;
+  margin: 30px 0 0 20px;
+}
+
+.product-4 {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #737373;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.product-4-img {
+  background-image: url(./images/picture-7.svg);
+  background-repeat: no-repeat;
+  width: 209px;
+  height: 404px;
+}
+.product-4-img button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.1em;
+  margin: 30px 0 0 20px;
+}
+.product-4-img .img-span {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 180px;
+}
+
+.product-4-text {
+  display: flex;
+  flex-direction: column;
+}
+.product-4-text .product-4-text-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+.product-4-text .product-4-text-1 span {
+  color: #23A6F0;
+}
+.product-4-text .product-4-text-1 .button {
+  border: none;
+  background-color: #252B42;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.product-4-text-2 h1 {
+  color: black;
+}
+
+.product-4-text-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.product-4-text-4 button {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: 2px solid #23A6F0;
+  color: #23A6F0;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+}
+.product-4-text-4 button span {
+  font-size: 1.5em;
+}
+
+.product-4-text-4 {
+  padding-top: 20px;
+}
+
+.product-4-img-2 {
+  background-image: url(./images/picture-8.svg);
+  background-repeat: no-repeat;
+  width: 209px;
+  height: 404px;
+}
+.product-4-img-2 button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.1em;
+  margin: 30px 0 0 20px;
+}
+.product-4-img-2 .img-span {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 180px;
+}/*# sourceMappingURL=style.css.map */
