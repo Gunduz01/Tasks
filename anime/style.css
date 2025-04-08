@@ -1,0 +1,1483 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.animation-1{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    animation-name: one;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    border: none;
+    margin-left: 500px;
+}
+
+@keyframes one{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+       
+.animation-2{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: kubik;
+    background-color: darkcyan;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border: none;
+    margin-left: 600px;
+    padding: 50px;
+}
+
+@keyframes kubik{
+
+    0%,20%,100%{
+        transform: translateX(0);
+    }
+    40%{
+        transform: translateY(-100px);
+    }
+    60%{
+        transform: translateY(100px);
+    }
+    80%{
+        transform: translateY(-100px);
+    }
+}
+
+.animation-3{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: salam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border: none;
+    margin-left: 500px;
+    padding: 150px;
+}
+
+@keyframes salam{
+    0%{
+        transform: scale(2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
+.animation-4{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: aloo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border: none;
+    margin-left: 500px;
+    padding: 150px;
+}
+
+@keyframes aloo{
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scaleX(3);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.animation-5{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: animes;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border: none;
+    margin-left: 500px;
+    padding: 100px;
+}
+
+@keyframes animes{
+    0%{
+        transform: translateX(250px);
+    }
+    30%{
+        transform: translateX(300px);
+    }
+    60%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(250px);
+    }
+}
+
+.animation-6{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: mamies;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border: none;
+    margin-left: 500px;
+    padding: 100px;
+}
+
+@keyframes mamies{
+    0%{
+        transform: translateY(250px);
+    }
+    30%{
+        transform: translateY(200px);
+    }
+    60%{
+        transform: translateY(250px);
+    }
+    80%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(250px);
+    }
+}
+
+.animation-7{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: serpent;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border: none;
+    margin-left: 500px;
+    padding: 100px;
+}
+
+@keyframes serpent{
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-10deg);
+    }
+    60%{
+        transform: rotate(5deg);
+    }
+    80%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.animation-8{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: tadaa;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border: none;
+    margin-left: 500px;
+    padding: 100px;
+}
+
+@keyframes tadaa{
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(15deg) scale(2);
+    }
+    40%{
+        transform: rotate(-15deg)scale(2);
+    }
+    60%{
+        transform: rotate(5deg)scale(2);
+    }
+    80%{
+        transform: rotate(-5deg)scale(2);
+    }
+    100%{transform: rotate(0deg);
+    }
+}
+
+.animation-9{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation-name: ragnar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 50px;
+}
+
+@keyframes ragnar{
+    0%{
+        background-color: aqua; left: 0; top: 0;
+    }
+    10%{
+        background-color: blueviolet; left: 100px; top: 0;
+    }
+    20%{
+        background-color: cadetblue; left: 100px; top: 100px;
+    }
+    30%{
+        background-color: chocolate; left: 200px; top: 100px;
+    }
+    40%{
+        background-color: cyan; left: 200px; top: 200px;
+    }
+    50%{
+        background-color: darksalmon; left: 300px; top: 200px;
+    }
+    60%{
+        background-color: lightslategray; left: 300px; top: 300px;
+    }
+    70%{
+        background-color: darkseagreen; left: 400px; top: 300px;
+    }
+    80%{
+        background-color: darkkhaki; left: 400px; top: 400px;
+    }
+    90%{
+        background-color: dodgerblue; left: 500px; top: 400px;
+    }
+    100%{
+        background-color: chartreuse; left: 500px; top: 500px;
+    }
+}
+
+.animation-10{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: valkur;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes valkur{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(20px); rotate: -5deg;
+    }
+    40%{
+        transform: translateX(-20px);
+    }
+    60%{
+        transform: translateX(10px);rotate: 5deg;
+    }
+    80%{
+        transform: translateX(-10px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.animation-11{
+    background-color: transparent;
+    border: none;
+    background-image: url(https://img.freepik.com/free-vector/illustration-scene-with-football-field-stadium_1308-37038.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+
+.animation-11 img{
+    position: relative;
+    top: 50px;
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ball{
+    0%{
+        transform: translateX(0); 
+    }
+    50%{
+        transform: translateX(380px); 
+    }
+    90%{
+        transform:rotate(180deg)
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.animation-12{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: kyklop;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes kyklop{
+    0%{
+        transform: skewX(10deg);
+    }
+    20%{
+        transform: skewX(-10deg);
+    }
+    40%{
+        transform: skewY(20deg);
+    }
+    60%{
+        transform: skewY(-20deg);
+    }
+    80%{
+        transform: skewX(10deg);
+    }
+    100%{
+        transform: skewX(-10deg);
+    }
+}
+
+.animation-13{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: messi;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes messi{
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(4);
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(4);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.animation-14{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: down;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes down{
+    0%{
+        transform: translateY(-1000px) scaleY(3);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(0) scale(3);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(100px) scaleY(1);
+        opacity: 0;
+    }
+}
+
+.animation-15{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: left;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes left{
+    0%{
+        transform: translateX(-1000px) scaleX(3);
+        opacity: 0;
+    }
+    80%{
+        transform: translateX(0) scale(3);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(100px) scaleX(1);
+        opacity: 0;
+    }
+}
+
+.animation-16{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: right;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes right{
+    0%{
+        transform: translateX(100px) scaleX(3);
+        opacity: 0;
+    }
+    80%{
+        transform: translateX(0) scale(3);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-100px) scaleX(1);
+        opacity: 0;
+    }
+}
+
+.animation-17{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: up;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes up{
+    0%{
+        transform: translateY(100px) scaleX(3);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(0) scale(3);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-100px) scaleX(1);
+        opacity: 0;
+    }
+}
+
+.animation-18{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bouncein;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bouncein{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+        scale: 2;
+    }
+    20%{
+        transform: translateY(0px);
+        scale: 1;
+    }
+    40%{
+        transform: translateY(10px);
+        scale: 1;
+    }
+    80%{
+        transform: translateY(5px);
+        scale: 1;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+.animation-19{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bounceleft;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bounceleft{
+    0%{
+        transform: translateX(0px);
+        opacity: 0;
+        scale: 2;
+    }
+    20%{
+        transform: translateX(0px);
+        scale: 1;
+    }
+    40%{
+        transform: translateX(20px);
+        scale: 1;
+    }
+    80%{
+        transform: translateX(10px);
+        scale: 1;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+
+.animation-20{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bounceright;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bounceright{
+    0%{
+        transform: translateX(0px);
+        opacity: 0;
+        scale: 2;
+    }
+    20%{
+        transform: translateX(0px);
+        scale: 1;
+    }
+    40%{
+        transform: translateX(-20px);
+        scale: 1;
+    }
+    80%{
+        transform: translateX(-10px);
+        scale: 1;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+
+.animation-21{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bounceup;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bounceup{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+        scale: 2;
+    }
+    20%{
+        transform: translateY(0px);
+        scale: 1;
+    }
+    40%{
+        transform: translateY(-50px);
+        scale: 1;
+    }
+    80%{
+        transform: translateY(-40px);
+        scale: 1;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+.animation-22{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bounceout;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bounceout{
+    0%{
+        opacity: 1;
+    }
+    20%{
+        transform: scale(3);
+    }
+    40%{
+        transform: scale(3);
+    }
+    80%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.animation-23{
+    display: flex;
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/221218184732-messi-wc-trophy.jpg?c=original);
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes messiii {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+
+.animation-23 img{
+    width: 500px;
+    height: 350px;
+    animation-name: messiii;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.animation-24{
+    display: flex;
+    justify-content: space-between;
+}
+
+.animation-24 .bmw{
+    animation-name: bmw;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.animation-24 .nissan{
+    animation-name: nissan;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes bmw{
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(700px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+} 
+
+@keyframes nissan{
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-700px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+} 
+
+.animation-25{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bounceout-up;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bounceout-up{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(100px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(-100000px);
+        opacity: 0;
+    }
+}
+
+.animation-26{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bounceout-down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bounceout-down{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-100px);
+    }
+    80%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+}
+
+.animation-27{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bounceout-right;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bounceout-right{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-100px);
+    }
+    80%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 0;
+    }
+}
+
+.animation-28{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: bounceout-left;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes bounceout-left{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(100px);
+    }
+    80%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 0;
+    }
+}
+
+.animation-29{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: coming;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes coming{
+    0%{
+        transform: translateX(100px);
+    }
+    50%{
+        transform: translateY(100px)
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
+
+.animation-30{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: comingout;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes comingout{
+    0%{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateY(100px)
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+}
+
+.animation-31{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: heloooo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes heloooo{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+}
+
+.animation-32{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: byeee;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes byeee{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+}
+
+.animation-33{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: asgard;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes asgard{
+    0%{
+        transform: rotateY(180deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+.animation-34{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: midgard;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes midgard{
+    0%{
+        transform: rotateX(180deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+.animation-35{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: asgardout;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes asgardout{
+    0%{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: rotateX(180deg);
+        opacity: 0;
+    }
+}
+
+.animation-36{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: midgardout;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes midgardout{
+    0%{
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+.animation-37{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: lightspeed;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes lightspeed{
+    0%{
+        transform: translateX(-100px) skewX(-40deg);
+    }
+    60%{
+        transform: translateX(100px) skewX(40deg);
+    }
+    80%{
+        transform: translateX(0) skewX(5deg);
+    }
+    100%{
+        transform: translateX(0) skewX(0);
+    }
+
+}
+
+.animation-38{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: lightspeed-right;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes lightspeed-right{
+    0%{
+        transform: translateX(100px) skewX(40deg);
+    }
+    60%{
+        transform: translateX(-100px) skewX(-40deg);
+    }
+    80%{
+        transform: translateX(0) skewX(5deg);
+    }
+    100%{
+        transform: translateX(0) skewX(0);
+    }
+
+}
+
+.animation-39{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: lightspeed-up;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes lightspeed-up{
+    0%{
+        transform: translateY(-100px) skewY(-40deg);
+    }
+    60%{
+        transform: translateY(100px) skewY(0deg);
+    }
+    80%{
+        transform: translateY(0) skewX(5deg);
+    }
+    100%{
+        transform: translateY(0) skewX(0);
+    }
+
+}
+
+.animation-40{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: lightspeedin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes lightspeedin{
+    0%{
+        transform: translateX(0) skewX(0);
+        opacity: 0;
+    }
+    60%{
+        transform: translateX(0) skewX(5deg);
+    }
+    80%{
+        transform: translateY(100px) skewX(40deg);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(0px) skewX(0deg);
+        opacity: 0;
+    }
+
+}
+.animation-41{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+    padding: 100px;
+    margin: 200px;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(45deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.animation-42 img{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: world;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes world{
+    0%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+.animation-43{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: slideup;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes slideup{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-44{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: slidedown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes slidedown{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-45{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes slideleft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-46{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: slideright;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes slideright{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-47{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: slideoutup;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes slideoutup{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-48{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: slideoutdown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes slideoutdown{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-49{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: slideoutleft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes slideoutleft{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-50{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    position: relative;
+    animation-name: slideoutright;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: none;
+}
+
+@keyframes slideoutright{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
