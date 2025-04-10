@@ -1,0 +1,314 @@
+.after{
+    h1::after{
+        content: " Gunduz";
+    }
+    h2::after{
+        content: " Dunya";
+    }
+    h3::after{
+        content: " Coder";
+    }
+    h4::after{
+        content: " CSS";
+    }
+    h5::after{
+        content: " Visca Catalunya";
+    }
+}
+
+.before{
+    h1::before{
+        content: "Gunduz, ";
+    }
+    h2::before{
+        content: "Dunya, ";
+    }
+    h3::before{
+        content: "Coder, ";
+    }
+    h4::before{
+        content: "Css, ";
+    }
+    h5::before{
+        content: "Visca Barca ";
+    }
+}
+
+.first-letter{
+    h1::first-letter{
+        font-size: 1.2em;
+    }
+    h2::first-letter{
+        font-weight: lighter
+    }
+    h3::first-letter{
+        color: blue;
+    }
+    h4::first-letter{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h5::first-letter{
+        font-variant: small-caps;
+    }
+}
+
+.first-line{
+    h1::first-line{
+        font-size: 2em;
+    }
+    h2::first-line{
+        color: red;
+    }
+    h3::first-line{
+        text-decoration: underline dotted;
+    }
+    h4::first-line{
+        text-transform: capitalize;
+    }
+    h5::first-line{
+        background-color: chartreuse;
+    }
+}
+
+.marker{
+    ul{
+        ::marker{
+            font-size: medium;
+            color: aqua;
+        }
+    }    
+    ol{
+        ::marker{
+            font-size: 3em;
+            color: red;
+            text-decoration: underline;
+        }
+    }
+}
+
+.selection{
+    h1::selection{
+        color: antiquewhite;
+        background-color: black;
+    }
+    h2::selection{
+        color: red;
+        background-color: blue;
+    }
+    h3::selection{
+        color: yellow;
+        background-color: orange;
+    }
+    h4::selection{
+        color: blue;
+        background-color: pink;
+    }
+    h5::selection{
+        color: orange;
+        background-color: purple;
+    }
+}
+
+.placeholder{
+    h1 input::placeholder{
+        color: blue;
+        opacity: 0.7;
+    }
+    h2 input::placeholder{
+        color: red;
+        opacity: 1;
+    }
+    h3 input::placeholder{
+        color: green;
+        opacity: 0.5;
+    }
+    h4 input::placeholder{
+        color: lightcoral;
+        opacity: 0.8;
+    }
+    h5 input::placeholder{
+        color: purple;
+        opacity: 0.3;
+    }
+}
+
+.placeholder-shown{
+    h1 input:placeholder-shown{
+        opacity: 0.5;
+        border: 1 solid black;
+    }
+    h2 input:placeholder-shown{
+        opacity: 1;
+        border: 2px dashed black;
+        border-radius: 5px;
+    }
+    h3 input:placeholder-shown{
+        opacity: 0.5;
+        font-style: italic;
+    }
+    h4 input:placeholder-shown{
+        opacity: 0.8;
+        background-color: aquamarine;
+    }
+    h5 input:placeholder-shown{
+        opacity: 1;
+        font-weight: bold;
+    }
+}
+
+.hover{
+    h1 a:hover{
+        background-color: aqua;
+        font-size: 2em;
+    }
+    h2:hover{
+        background-color: red;
+        font-size: 1.2em;
+    }
+    h3:hover{
+        background-color: blue;
+    }
+    h4:hover{
+        background-color: purple;
+        font-size: 1.5em;
+    }
+    h5:hover{
+        background-color: orange;
+        font-size: 2em;
+        scale: -2;
+        transition: 10s;
+    }
+}
+
+.focus{
+    h1 input:focus{
+        background-color: aliceblue;
+    }
+    h2 input:focus{
+        background-color: red;
+    }
+    h3 input:focus{
+        background-color: green;
+    }
+    h4 input:focus{
+        background-color: purple;
+    }
+    h5 input:focus{
+        background-color: blue;
+        scale: 1.1;
+    }
+}
+
+.active{
+    h1 a:active{
+        background-color: blue;
+        color: red;
+    }
+    h2 a:active{
+        background-color: yellow;
+        color: orange;
+    }
+    h3 a:active{
+        background-color: black;
+        color: white;
+    }
+    h4 a:active{
+        background-color: green;
+        color: purple;
+    }
+    h5 a:active{
+        background-color: purple;
+        color: white;
+    }
+}
+
+.checked{
+    h1 input:checked{
+        outline: 1px solid red;
+    }
+    h2 input:checked{
+        outline: 2px solid black;
+    }
+    h3 input:checked{
+        outline: 10px dashed blue;
+    }
+    h4 input:checked{
+        outline: 3px dotted orange;
+    }
+    h5 input:checked{
+        outline: 6px double green;
+    }
+}
+
+.last-of-type{
+    h1:last-of-type{
+        color: blue;
+        background-color: red;
+    }
+    h2:last-of-type{
+        color: yellow;
+        background-color: orange;
+    }
+    h3:last-of-type{
+        color: white;
+        background-color: black;
+    }
+    h4:last-of-type{
+        color: green;
+        background-color: red;
+    }
+    h5:last-of-type{
+        color: gray;
+        background-color: orange;
+    } 
+}
+
+.nth-child{
+    p:nth-child(5){
+        background-color: red;
+    }
+    p:nth-child(7){
+        background-color: blue;
+    }
+    p:nth-child(3){
+        background-color: orange;
+    }
+    p:nth-child(2){
+        background-color: green;
+    }
+    p:nth-child(9){
+        background-color: lightpink;
+    }
+}
+
+.nth-of-type{
+    h1:nth-of-type(2){
+        background-color: red;
+    }
+    h2:nth-of-type(3){
+        background-color: blue;
+    }
+    h3:nth-of-type(2){
+        background-color: orange;
+    }
+    h4:nth-of-type(1){
+        background-color: green;
+    }
+    h5:nth-of-type(3){
+        background-color: lightpink;
+    }
+}
+
+.first-child{
+    p:first-child{
+        color: blueviolet;
+        font-size: 2em;
+    }
+}
+
+.last-childdd{
+    h5:last-child{
+        background-color: blue;
+    }
+}
+

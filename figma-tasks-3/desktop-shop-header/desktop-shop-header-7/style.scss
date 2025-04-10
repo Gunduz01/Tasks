@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+  
+  .second-header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .second-header-section-div {
+    display: flex;
+    flex-direction: row;
+    gap: 260px;
+  }
+  .second-header-section-div-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .second-header-section-div-menu-navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .second-header-section-div-login {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .second-header-section-div-login-register {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .second-header-section-div-login-register p {
+    color: white;
+  }
+  .second-header-section-div-login-utilites {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: white;
+  }
+  
+  .shop {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: white;
+    font-weight: normal;
+  }
+
+  .section-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(./images/background-img.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 743px;
+  }
+
+  .main-section-div-center{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    padding-left: 150px;
+    h1{
+      font-size: 3.5em;
+    }
+    button{
+      background-color: #23A6F0;
+      color: white;
+      width: fit-content;
+      border-radius: 5px;
+      padding: 15px 40px;
+    }
+  }
+
+  

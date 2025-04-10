@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.first-header-section-div{
+    background-color: #3C403D;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 10px;
+    &-contact{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        &-call{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+        &-mail{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+    &-follow{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            li{
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                img{
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}
+
+.second-header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    &-div{
+        display: flex;
+        flex-direction: row;
+        gap: 260px;
+        &-menu{
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            &-navbar{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                font-weight: bold;
+                color: #737373;
+            }
+        }
+        &-login{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            &-register{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                p{
+                    color: #23A6F0;
+                }
+            }
+            &-utilites{
+                display: flex;
+                flex-direction: row;
+                gap: 25px;
+                color: #23A6F0;    
+            }
+        }
+    }
+}
+
+.shop{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;   
+    color: black;
+    font-weight: normal;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/backgroun-img.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130vh;
+    .main-section-div{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        .main-section-div-text{
+            display: flex;
+            flex-direction: column;
+            padding-left: 150px;
+            color: white;
+            gap: 30px;
+            h1{
+                font-size: 3em;
+            }
+            button{
+                width: fit-content;
+                padding: 15px 36px;
+                border: 1px solid white;
+                background-color: transparent;
+                border-radius: 37px;
+                color: white;
+            }
+        }
+    }
+}

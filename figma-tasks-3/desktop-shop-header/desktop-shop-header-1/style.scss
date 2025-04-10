@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.first-header-section-div{
+    background-color: #252B42;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 10px;
+    &-contact{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        &-call{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+        &-mail{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+    &-follow{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            li{
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                img{
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}
+
+.second-header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    &-div{
+        display: flex;
+        flex-direction: row;
+        gap: 260px;
+        &-menu{
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            &-navbar{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                font-weight: bold;
+                color: #737373;
+            }
+        }
+        &-login{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            &-register{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                p{
+                    color: #23A6F0;
+                }
+            }
+            &-utilites{
+                display: flex;
+                flex-direction: row;
+                gap: 25px;
+                color: #23A6F0;    
+            }
+        }
+    }
+}
+
+.shop{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;   
+    color: black;
+    font-weight: normal;
+}
+
+// section
+
+.main-section-div{
+    background-image: url(./images/background-img-1.svg);
+    width: 100%;
+    height: 716px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 20px;
+    font-size: 1.5em;
+    p{
+        display: flex;
+        padding-left: 150px;
+    } 
+    .button{
+        display: flex;
+        padding: 20px;
+        margin-left: 150px;
+        width: fit-content;
+        background-color: #2DC071;
+        border-radius: 5px;
+        color: white;
+    }
+    .main-section-arrows{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        h1{
+            padding-right: 700px;
+        }
+    }
+    .main-section-bottom-btns{
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+        justify-content: center;
+        padding-top: 120px;
+        button{
+            width: 63px;
+            height: 10px;
+            background-color: white;
+        }
+        &-full{
+            opacity: 100%;
+        }
+        &-half{
+            opacity: 50%;
+        }
+    }
+}

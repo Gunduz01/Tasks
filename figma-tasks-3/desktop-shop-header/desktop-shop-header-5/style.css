@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-header-section-div {
+  background-color: #23856D;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+.first-header-section-div-contact {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.first-header-section-div-contact-call {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.first-header-section-div-contact-call img {
+  width: 16px;
+  height: 16px;
+}
+.first-header-section-div-contact-mail {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.first-header-section-div-contact-mail img {
+  width: 16px;
+  height: 16px;
+}
+.first-header-section-div-follow {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.first-header-section-div-follow ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.first-header-section-div-follow ul li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.first-header-section-div-follow ul li img {
+  width: 16px;
+  height: 16px;
+}
+
+.second-header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+.second-header-section-div {
+  display: flex;
+  flex-direction: row;
+  gap: 260px;
+}
+.second-header-section-div-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.second-header-section-div-menu-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-weight: bold;
+  color: #737373;
+}
+.second-header-section-div-login {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.second-header-section-div-login-register {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.second-header-section-div-login-register p {
+  color: #23A6F0;
+}
+.second-header-section-div-login-utilites {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  color: #23A6F0;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  color: black;
+  font-weight: normal;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+}
+.main-section .main-section-div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 250px;
+  padding-top: 50px;
+  gap: 20px;
+}
+.main-section .main-section-div .main-section-div-collage-1 {
+  background-image: url(./images/left-1.svg);
+  width: 332px;
+  height: 700px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+.main-section .main-section-div .main-section-div-collage-1 .main-section-div-collage-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section-div-collage-3 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/right-top.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 555px;
+  height: 272.5px;
+  margin-bottom: 10px;
+}
+
+.main-section-div-collage-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.main-section-div-collage-4 .main-section-div-collage-4-left {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/bottom-left.svg);
+  background-size: c;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 270px;
+}
+.main-section-div-collage-4 .main-section-div-collage-4-right {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/bottom-right.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 300px;
+}
+
+.span {
+  padding: 30px;
+}/*# sourceMappingURL=style.css.map */

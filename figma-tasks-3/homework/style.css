@@ -1,0 +1,340 @@
+.after h1::after {
+  content: " Gunduz";
+}
+.after h2::after {
+  content: " Dunya";
+}
+.after h3::after {
+  content: " Coder";
+}
+.after h4::after {
+  content: " CSS";
+}
+.after h5::after {
+  content: " Visca Catalunya";
+}
+
+.before h1::before {
+  content: "Gunduz, ";
+}
+.before h2::before {
+  content: "Dunya, ";
+}
+.before h3::before {
+  content: "Coder, ";
+}
+.before h4::before {
+  content: "Css, ";
+}
+.before h5::before {
+  content: "Visca Barca ";
+}
+
+.first-letter h1::first-letter {
+  font-size: 1.2em;
+}
+.first-letter h2::first-letter {
+  font-weight: lighter;
+}
+.first-letter h3::first-letter {
+  color: blue;
+}
+.first-letter h4::first-letter {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.first-letter h5::first-letter {
+  font-variant: small-caps;
+}
+
+.first-line h1::first-line {
+  font-size: 2em;
+}
+.first-line h2::first-line {
+  color: red;
+}
+.first-line h3::first-line {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+.first-line h4::first-line {
+  text-transform: capitalize;
+}
+.first-line h5::first-line {
+  background-color: chartreuse;
+}
+
+.marker ul ::marker {
+  font-size: medium;
+  color: aqua;
+}
+.marker ol ::marker {
+  font-size: 3em;
+  color: red;
+  text-decoration: underline;
+}
+
+.selection h1::-moz-selection {
+  color: antiquewhite;
+  background-color: black;
+}
+
+.selection h1::selection {
+  color: antiquewhite;
+  background-color: black;
+}
+.selection h2::-moz-selection {
+  color: red;
+  background-color: blue;
+}
+.selection h2::selection {
+  color: red;
+  background-color: blue;
+}
+.selection h3::-moz-selection {
+  color: yellow;
+  background-color: orange;
+}
+.selection h3::selection {
+  color: yellow;
+  background-color: orange;
+}
+.selection h4::-moz-selection {
+  color: blue;
+  background-color: pink;
+}
+.selection h4::selection {
+  color: blue;
+  background-color: pink;
+}
+.selection h5::-moz-selection {
+  color: orange;
+  background-color: purple;
+}
+.selection h5::selection {
+  color: orange;
+  background-color: purple;
+}
+
+.placeholder h1 input::-moz-placeholder {
+  color: blue;
+  opacity: 0.7;
+}
+
+.placeholder h1 input::placeholder {
+  color: blue;
+  opacity: 0.7;
+}
+.placeholder h2 input::-moz-placeholder {
+  color: red;
+  opacity: 1;
+}
+.placeholder h2 input::placeholder {
+  color: red;
+  opacity: 1;
+}
+.placeholder h3 input::-moz-placeholder {
+  color: green;
+  opacity: 0.5;
+}
+.placeholder h3 input::placeholder {
+  color: green;
+  opacity: 0.5;
+}
+.placeholder h4 input::-moz-placeholder {
+  color: lightcoral;
+  opacity: 0.8;
+}
+.placeholder h4 input::placeholder {
+  color: lightcoral;
+  opacity: 0.8;
+}
+.placeholder h5 input::-moz-placeholder {
+  color: purple;
+  opacity: 0.3;
+}
+.placeholder h5 input::placeholder {
+  color: purple;
+  opacity: 0.3;
+}
+
+.placeholder-shown h1 input:-moz-placeholder-shown {
+  opacity: 0.5;
+  border: 1 solid black;
+}
+
+.placeholder-shown h1 input:placeholder-shown {
+  opacity: 0.5;
+  border: 1 solid black;
+}
+.placeholder-shown h2 input:-moz-placeholder-shown {
+  opacity: 1;
+  border: 2px dashed black;
+  border-radius: 5px;
+}
+.placeholder-shown h2 input:placeholder-shown {
+  opacity: 1;
+  border: 2px dashed black;
+  border-radius: 5px;
+}
+.placeholder-shown h3 input:-moz-placeholder-shown {
+  opacity: 0.5;
+  font-style: italic;
+}
+.placeholder-shown h3 input:placeholder-shown {
+  opacity: 0.5;
+  font-style: italic;
+}
+.placeholder-shown h4 input:-moz-placeholder-shown {
+  opacity: 0.8;
+  background-color: aquamarine;
+}
+.placeholder-shown h4 input:placeholder-shown {
+  opacity: 0.8;
+  background-color: aquamarine;
+}
+.placeholder-shown h5 input:-moz-placeholder-shown {
+  opacity: 1;
+  font-weight: bold;
+}
+.placeholder-shown h5 input:placeholder-shown {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.hover h1 a:hover {
+  background-color: aqua;
+  font-size: 2em;
+}
+.hover h2:hover {
+  background-color: red;
+  font-size: 1.2em;
+}
+.hover h3:hover {
+  background-color: blue;
+}
+.hover h4:hover {
+  background-color: purple;
+  font-size: 1.5em;
+}
+.hover h5:hover {
+  background-color: orange;
+  font-size: 2em;
+  scale: -2;
+  transition: 10s;
+}
+
+.focus h1 input:focus {
+  background-color: aliceblue;
+}
+.focus h2 input:focus {
+  background-color: red;
+}
+.focus h3 input:focus {
+  background-color: green;
+}
+.focus h4 input:focus {
+  background-color: purple;
+}
+.focus h5 input:focus {
+  background-color: blue;
+  scale: 1.1;
+}
+
+.active h1 a:active {
+  background-color: blue;
+  color: red;
+}
+.active h2 a:active {
+  background-color: yellow;
+  color: orange;
+}
+.active h3 a:active {
+  background-color: black;
+  color: white;
+}
+.active h4 a:active {
+  background-color: green;
+  color: purple;
+}
+.active h5 a:active {
+  background-color: purple;
+  color: white;
+}
+
+.checked h1 input:checked {
+  outline: 1px solid red;
+}
+.checked h2 input:checked {
+  outline: 2px solid black;
+}
+.checked h3 input:checked {
+  outline: 10px dashed blue;
+}
+.checked h4 input:checked {
+  outline: 3px dotted orange;
+}
+.checked h5 input:checked {
+  outline: 6px double green;
+}
+
+.last-of-type h1:last-of-type {
+  color: blue;
+  background-color: red;
+}
+.last-of-type h2:last-of-type {
+  color: yellow;
+  background-color: orange;
+}
+.last-of-type h3:last-of-type {
+  color: white;
+  background-color: black;
+}
+.last-of-type h4:last-of-type {
+  color: green;
+  background-color: red;
+}
+.last-of-type h5:last-of-type {
+  color: gray;
+  background-color: orange;
+}
+
+.nth-child p:nth-child(5) {
+  background-color: red;
+}
+.nth-child p:nth-child(7) {
+  background-color: blue;
+}
+.nth-child p:nth-child(3) {
+  background-color: orange;
+}
+.nth-child p:nth-child(2) {
+  background-color: green;
+}
+.nth-child p:nth-child(9) {
+  background-color: lightpink;
+}
+
+.nth-of-type h1:nth-of-type(2) {
+  background-color: red;
+}
+.nth-of-type h2:nth-of-type(3) {
+  background-color: blue;
+}
+.nth-of-type h3:nth-of-type(2) {
+  background-color: orange;
+}
+.nth-of-type h4:nth-of-type(1) {
+  background-color: green;
+}
+.nth-of-type h5:nth-of-type(3) {
+  background-color: lightpink;
+}
+
+.first-child p:first-child {
+  color: blueviolet;
+  font-size: 2em;
+}
+
+.last-childdd h5:last-child {
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */

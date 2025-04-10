@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.second-header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+.second-header-section-div {
+  display: flex;
+  flex-direction: row;
+  gap: 260px;
+}
+.second-header-section-div-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.second-header-section-div-menu-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-weight: bold;
+  color: #737373;
+}
+.second-header-section-div-login {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.second-header-section-div-login-register {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.second-header-section-div-login-register p {
+  color: #23A6F0;
+}
+.second-header-section-div-login-utilites {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  color: #23A6F0;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  color: black;
+  font-weight: normal;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.main-section .main-section-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-section .main-section-div .main-section-div-left-side {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/left-img.svg);
+  background-repeat: no-repeat;
+  width: 629px;
+  height: 647px;
+}
+
+button {
+  background-color: transparent;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px 40px;
+}
+
+.left-side-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  gap: 20px;
+  margin-top: 200px;
+}
+.left-side-text h1 {
+  font-size: 3em;
+}/*# sourceMappingURL=style.css.map */

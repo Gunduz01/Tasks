@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.second-header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+.second-header-section-div {
+  display: flex;
+  flex-direction: row;
+  gap: 260px;
+}
+.second-header-section-div-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.second-header-section-div-menu-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-weight: bold;
+  color: #737373;
+}
+.second-header-section-div-login {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.second-header-section-div-login-register {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.second-header-section-div-login-register p {
+  color: #23A6F0;
+}
+.second-header-section-div-login-utilites {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  color: #23A6F0;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  color: black;
+  font-weight: normal;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main-section .main-section-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 500px;
+}
+.main-section .main-section-div-left {
+  display: flex;
+  align-items: center;
+}
+.main-section .main-section-div-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 190px;
+  position: absolute;
+  font-size: 1.2em;
+  gap: 20px;
+}
+.main-section .main-section-div-center p {
+  color: #23A6F0;
+  font-weight: bold;
+}
+.main-section .main-section-div-center h1 {
+  font-size: 2em;
+}
+.main-section .main-section-div-center h4 {
+  font-weight: bold;
+  font-size: 0.7em;
+  color: #737373;
+}
+.main-section .main-section-div-center button {
+  background-color: white;
+  border: 1px solid #23A6F0;
+  border-radius: 5px;
+  padding: 15px 40px;
+  color: #23A6F0;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

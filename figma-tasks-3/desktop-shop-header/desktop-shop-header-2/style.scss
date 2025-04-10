@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.first-header-section-div{
+    background-color: #252B42;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 10px;
+    &-contact{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        &-call{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+        &-mail{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+    &-follow{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            li{
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                img{
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}
+
+.second-header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    &-div{
+        display: flex;
+        flex-direction: row;
+        gap: 260px;
+        &-menu{
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            &-navbar{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                font-weight: bold;
+                color: #737373;
+            }
+        }
+        &-login{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            &-register{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                p{
+                    color: #23A6F0;
+                }
+            }
+            &-utilites{
+                display: flex;
+                flex-direction: row;
+                gap: 25px;
+                color: #23A6F0;    
+            }
+        }
+    }
+}
+
+.shop{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;   
+    color: black;
+    font-weight: normal;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.7em;
+    &-div{
+        display: flex;
+        flex-direction: row;
+        background-color: #9DEAF0;
+        border-radius: 10px;
+        height: 75vh;
+        width: 190vh;
+        gap: 300px;
+        margin-left: 75px;
+        &-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 70px;
+            gap: 30px;
+            p{
+                font-size: 15px;
+            }
+            button{
+                width: fit-content;
+                padding: 15px 40px 15px 40px;
+                color: white;
+                background-color: #23A6F0;
+                border-radius: 5px;
+            }
+        }
+        &-2{
+            img{
+                position: absolute;
+            }
+        }
+    }
+}
