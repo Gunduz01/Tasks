@@ -16,6 +16,23 @@
     }
 }
 
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.fixed button{
+    border: none;
+    background-color: transparent;
+}
+
+.fixed button a{
+    text-decoration: none;
+    color: red;
+    font-size: 2em;
+}
+
 .before{
     h1::before{
         content: "Gunduz, ";

@@ -5,6 +5,25 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+.fixed button {
+  border: none;
+  background-color: transparent;
+}
+
+.fixed button a {
+  text-decoration: none;
+  color: red;
+  font-size: 2em;
+  background-color: transparent;
+}
+
 .second-header-section {
   display: flex;
   flex-direction: row;
