@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.first-section-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.first-section-div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-section-div-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.first-section-div-2-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.first-section-div-2-product-1, .first-section-div-2-product-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+}
+
+.credit-card-square{
+    background-color: #E74040;
+    border-radius:  10px;
+    padding: 22px 19px;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+}
+
+.product-info h5{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #252B42;
+} 
+
+.product-info p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* second-section */
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.second-section-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.red{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #E74040;
+    width: 94px;
+    height: 7px;
+}
+
+.second-section-div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 50px;
+    text-align: left;
+}
+
+.second-section-div-1 span{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.second-section-div-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section-div-2-product{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.second-section-div-2-product-up{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.credit-card{
+    height: 50px;
+    width: 50px;
+    background-color: #E74040;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-div-2-product-1, .second-section-div-2-product-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+
+/* third-section */
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    color: #252B42;
+}
+
+.third-section-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.third-section-div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.third-section-div-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    padding: 50px;
+}
+
+.third-section-div-product-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+}
+
+.third-section-div-product-in-up, .third-section-div-product-in-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 5px;
+}
+/* fourth-section */
+
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    color: #252B42;
+}
+
+/* fifth-section */
+.fifth-section{
+    padding: 70px;
+}

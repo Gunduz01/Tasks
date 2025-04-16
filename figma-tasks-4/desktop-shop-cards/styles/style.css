@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    cursor: url(https://img.icons8.com/android/24/finger-and-thumb.png) 16 16, auto;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.first-section-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.first-section-div-left{
+    background-image: url(../images/background-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    text-align: left;
+    color: #252B42;
+}
+
+.first-section-div-left-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+    gap: 30px;
+}
+
+.first-section-div-left-image{
+    position: relative;
+}
+
+.first-section-div-left-image img{
+    position: absolute;
+    top: -60px;
+    right: -115px;
+    background-color: transparent;
+}
+
+.first-section-div-right{
+    background-image: url(../images/background-2.svg);
+    background-color: #0252ca;
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.first-section-div-right-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+    gap: 30px;
+}
+
+.first-section-div-right-image{
+    position: relative;
+}
+
+.first-section-div-right-image img{
+    position: absolute;
+    top: -60px;
+    right: -115px;
+    background-color: transparent;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #252B42;
+}
+
+.second-section-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 100px;
+}
+
+.second-section-div-left{
+    background-image: url(../images/image-3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 404px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.second-section-div-right{
+    background-image: url(../images/image-4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 404px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.second-section-div-left-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: -50px;
+}
+
+.second-section-div-right-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: -50px;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.third-section-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    color: #252B42;
+    padding-bottom: 100px;
+}
+
+.third-section-div-left{
+    background-image: url(../images/image-5.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 713px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-section-div-right{
+    background-image: url(../images/image-6.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 713px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-section-div-left-text, .third-section-div-right-text{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fourth-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.fourth-section-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    color: #252B42;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.fourth-section-div-left{
+    background-image: url(../images/image-7.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-section-div-right{
+    background-image: url(../images/image-8.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-section-div-left-text, .fourth-section-div-right-text{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fifth-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.fifth-section-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    gap: 30px;
+}
+
+.fifth-section-div-left{
+    background-image: url(../images/image-9.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fifth-section-div-right{
+    background-image: url(../images/image-10.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fifth-section-div-left-text, .fifth-section-div-right-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.sixth-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    color: #252B42;
+    padding-bottom: 100px;
+}
+
+.sixth-section-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    gap: 30px;
+}
+
+.sixth-section-div-left{
+    background-image: url(../images/image-11.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sixth-section-div-right{
+    background-image: url(../images/image-12.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sixth-section-div-left-text, .sixth-section-div-right-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 20px;
+}
