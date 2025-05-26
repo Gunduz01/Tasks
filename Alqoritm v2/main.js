@@ -6,6 +6,15 @@
 // } else{
 //     console.log("Input ile verilen eded 10 ve 20 araliginda deyil.")
 // }
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 // // Task-2
 // console.log("Input ilə daxil edilən iki ədədin bir-birinə bərabər olub olmadığını yoxlayan alqoritm yazın.")
 // let number1 = prompt("Zehmet olmasa eded daxil edin")
@@ -82,12 +91,13 @@
 //     console.log("Havanin temperaturu donma derecesinden yuxaridir. Temperatur: "+temp)
 // }
 // // Task-10
-// console.log("Input ilə daxil edilən bir rəqəmin (0-9 arasında) tək rəqəm olub olmadığını yoxlayan alqoritm yazın.")
-// let number = prompt("Zehmet olmasa 0-9 arasinda bir reqem daxil edin")
-// if (0 < Number(number) && Number(number) < 9 && Number(number)%3==0){
-//     console.log("Daxil etdiyiniz reqem hem 0 ve 9 arasindadir, hem de tek ededdir")
-// }else{
-//     console.log("Daxil etdiyiniz eded hec bir serti odemir");
+// console.log("Input ilə daxil edilən bir rəqəmin (0-9 arasında) tək rəqəm olub olmadığını yoxlayan alqoritm yazın.");
+// let number = prompt("Zəhmət olmasa 0-9 arasında bir rəqəm daxil edin");
+// number = Number(number);
+// if (number >= 0 && number <= 9 && number % 2 != 0) {
+//     console.log("Daxil etdiyiniz rəqəm 0-9 arasındadır və təkdir.");
+// } else {
+//     console.log("Daxil etdiyiniz rəqəm ya 0-9 arasında deyil, ya da tək deyil.");
 // }
 // // Task-11
 // console.log("Input ilə daxil edilən bir string dəyərin boş olub olmadığını yoxlayan alqoritm yazın.")
@@ -163,24 +173,117 @@
 // let eded = parseFloat(deyer)
 // let yuvarlanmisEded = Math.round(eded)
 // console.log(yuvarlanmisEded)
-// Task-20
-console.log("Input ilə daxil edilən bir balın (0-100 arası) A (90-100), B (80-89), C (70-79), D (60-69), F (<60) kateqoriyalarından hansına aid olduğunu müəyyən edən alqoritm yazın. (Yalnız bir şərt bloku istifadə edin).");
-var average = prompt("Zehmet olmasa ortalama balinizi qeyd edin, 0 ve 100 arasinda olmalidir");
-if (91 <= Number(average) && Number(average) <= 100) {
-    console.log("Sizin qiymetiniz A-ile qiymetlendirilir. Baliniz: " + average);
+// // Task-20
+// console.log("Input ilə daxil edilən bir balın (0-100 arası) A (90-100), B (80-89), C (70-79), D (60-69), F (<60) kateqoriyalarından hansına aid olduğunu müəyyən edən alqoritm yazın. (Yalnız bir şərt bloku istifadə edin).");
+// let average = prompt ("Zehmet olmasa ortalama balinizi qeyd edin, 0 ve 100 arasinda olmalidir")
+// if (91<=Number(average)&&Number(average)<=100){
+//     console.log("Sizin qiymetiniz A-ile qiymetlendirilir. Baliniz: "+average);
+// }else if(81<=Number(average)&&Number(average)<=90){ 
+//     console.log("Sizin qiymetiniz B-ile qiymetlendirilir. Baliniz: "+average);
+// }else if(71<=Number(average)&&Number(average)<=80){ 
+//     console.log("Sizin qiymetiniz C-ile qiymetlendirilir. Baliniz: "+average);
+// }else if(61<=Number(average)&&Number(average)<=70){ 
+//     console.log("Sizin qiymetiniz D-ile qiymetlendirilir. Baliniz: "+average);
+// }else if(51<=Number(average)&&Number(average)<=60){ 
+//     console.log("Sizin qiymetiniz E-ile qiymetlendirilir. Baliniz: "+average);
+// }else if(50>=Number(average)){ 
+//     console.log("Sizin baliniz yeteri qeder deyil. Barcelona ile birlikde gelen sezon deneyin(((. Baliniz: "+average);
+// }
+// Taskshome-3
+// // Task-21
+// console.log("Fibonacci")
+//     let a = 0
+//     let b = 1
+//     let step = prompt ("enter step")
+//     for(let i=0; i < Number(step) ; i++){
+//         b=a+b
+//         a=b-a
+//         console.log(b)
+//     }
+// // Task-22
+// console.log("$$$ Input ile daxil olunan 2 ededin cemi.");
+// let number = prompt("Please enter a number")
+// let number1 = prompt("Please enter a number")
+// let sum
+// sum = Number(number) + Number(number1)
+// console.log(Number(sum))
+// // Task-23
+// console.log("$$$ Input ilə daxil olunan müsbət ədədərin cəmi.");
+// let number = prompt("Please enter only positive number");
+// let number1 = prompt("Please enter only positive number");
+// while (Number(number) <= 0 || Number(number1) <= 0) {
+//     alert("Yalnız müsbət ədəd daxil etməlisiniz!");
+//     number = (prompt("Please enter only positive number"));
+//     number1 = (prompt("Please enter only positive number"));
+// }
+// console.log("Cəm:", number + number1);
+// // Task-24
+// console.log("Input ile daxil olunan ədədin sıfır,müsbət yoxsa mənfi olduğunu tapın.");
+// let number = prompt("Please enter number")
+// if(Number(number)>0){
+//     console.log("Daxil etdiyiniz eded musbetdir");
+// }else if(Number(number)<0){
+//     console.log("Daxil etdiyiniz eded menfidir");
+// }else if(Number(number)==0){
+//     console.log("Daxil etdiyiniz eded 0-dir");d
+// }
+// // Task-25
+// console.log("Input ile daxil olunan 2 eded arasinda olan en boyuk ededi tapin ");
+// let number = prompt("Zehmet olmasa bir eded daxil edin")
+// let number1 = prompt("Zehmet olmasa bir eded daxil edin")
+// if (Number(number)>Number(number1)){
+//     console.log("Birinci daxil etdiyiniz eded, ikinci daxil etdiyiniz ededden boyukdur");
+//     console.log("Birinci daxil edilen eded: "+number);
+//     console.log("Ikinci daxil edilen eded: "+number1);
+// }else{
+//     console.log("Ikinci daxil etdiyiniz eded, Birinci daxil etdiyiniz ededden boyukdur");
+//     console.log("Ikinci daxil edilen eded: "+number1);
+//     console.log("Birinci daxil edilen eded: "+number);
+// }
+// // Task-26
+// console.log("$$$ Input ile daxil olunan ədədin 5-e tam bolunub bolunmediyini tapın.");
+// let number = prompt("Zehmet olmasa bir eded daxil edin")
+// if(Number(number) % 5 == 0){
+//     console.log("Daxil etdiyiniz eded 5-e tam bolunur");
+// }else{
+//     console.log("Daxil etdiyiniz eded 5-e tam bolunmur")
+// }
+// // Task-27
+// console.log("$$$ Input ile daxil olunan ədədin cüt yoxsa tək olduğunu tapın.");
+// let number = prompt("Zehmet olmasa bir eded daxil edin")
+// if (Number(number) % 2 == 0){
+//     console.log("Daxil etdiyiniz eded cutdur.");
+// }else{
+//     console.log("Daxil etdiyiniz eded tekdir.");
+// }
+// // Task-28
+// console.log("Daxil olunan ədədin özündən rəqəmlərinin cəmini çıxırıq");
+// let number = prompt("Zəhmət olmasa ədəd daxil edin");
+// let eded = Number(number);  // sadəcə bir dəfə çevirmək kifayətdir
+// let cem = 0;
+// while (eded > 0) {
+//     let reqem = eded % 10;
+//     cem += reqem;           // rəqəmlərin cəmini topla
+//     eded = Math.floor(eded / 10);  // tam hissəni saxla
+// }
+// let ferq = Number(number) - cem;
+// console.log("Rəqəmlərin cəmi:", cem);
+// console.log("Fərq (ədəd - rəqəmlərin cəmi):", ferq);
+// // Task-29
+// console.log("Diskriminantin tapilmasi");
+// let root1 , root2
+// let a = prompt("Please enter number")
+// let b = prompt("Please enter number")
+// let c = prompt("Please enter number")
+// ****// let discriminant = b*b-4*a*c
+// Task-30 Array
+console.log("İstifadəçidən alınan n sayda ədədi array’i toplayın ve siralayin");
+var n = +prompt("Neçə ədəd daxil edəcəksiniz?");
+var ededler = [];
+for (var i = 0; i < n; i++) {
+    var eded = +prompt("".concat(i + 1, ". \u0259d\u0259d:"));
+    ededler.push(eded);
 }
-else if (81 <= Number(average) && Number(average) <= 90) {
-    console.log("Sizin qiymetiniz B-ile qiymetlendirilir. Baliniz: " + average);
-}
-else if (71 <= Number(average) && Number(average) <= 80) {
-    console.log("Sizin qiymetiniz C-ile qiymetlendirilir. Baliniz: " + average);
-}
-else if (61 <= Number(average) && Number(average) <= 70) {
-    console.log("Sizin qiymetiniz D-ile qiymetlendirilir. Baliniz: " + average);
-}
-else if (51 <= Number(average) && Number(average) <= 60) {
-    console.log("Sizin qiymetiniz E-ile qiymetlendirilir. Baliniz: " + average);
-}
-else if (50 >= Number(average)) {
-    console.log("Sizin baliniz yeteri qeder deyil. Barcelona ile birlikde gelen sezon deneyin(((. Baliniz: " + average);
-}
+var cem = ededler.reduce(function (a, b) { return a + b; }, 0);
+var siralanmis = __spreadArray([], ededler, true).sort(function (a, b) { return a - b; });
+alert("C\u0259m: ".concat(cem, "\nS\u0131ralanm\u0131\u015F: ").concat(siralanmis.join(", ")));
