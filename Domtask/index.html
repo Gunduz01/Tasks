@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dom-task</title>
-    <link rel="stylesheet" href="./world.css">
-    <script async src="./main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides</title>
+  <link rel="stylesheet" href="./styles/world.css">
+  <script async src="./scripts/main.js"></script>
 </head>
 <body>
-<!-- Tabs -->
- <!-- <div class="tabs">
-  <button onclick="showTab(0)">Tab 1</button>
-  <button onclick="showTab(1)">Tab 2</button>
-  <button onclick="showTab(2)">Tab 3</button>
+  <div class="slider-container">
+  <div class="slides">
+    <!-- Son slaytın kopyası (loop için) -->
+    <div class="slide">
+      <img src="./assets/img/slide6.jpg" alt="image">
+    </div>
+
+    <!-- Gerçek slaytlar -->
+    <div class="slide">
+      <img src="./assets/img/slide1.jpg" alt="image">
+    </div>
+    <div class="slide">
+      <img src="./assets/img/slide2.webp" alt="image">
+    </div>
+    <div class="slide">
+      <img src="./assets/img/slide3.avif" alt="image">
+    </div>
+    <div class="slide">
+      <img src="./assets/img/slide4.webp" alt="image">
+    </div>
+    <div class="slide">
+      <img src="./assets/img/slide5.webp" alt="image">
+    </div>
+    <div class="slide">
+      <img src="./assets/img/slide6.jpg" alt="image">
+    </div>
+
+    <!-- İlk slaytın kopyası (loop için) -->
+    <div class="slide">
+      <img src="./assets/img/slide1.jpg" alt="image">
+    </div>
+  
+  </div>
+  <!-- Butonlar -->
+  <button class="btn btn-prev">&#10094;</button>
+  <button class="btn btn-next">&#10095;</button>
 </div>
 
-<div class="tab-content">
-  <div class="tab active">Topic 1</div>
-  <div class="tab">Topic 2</div>
-  <div class="tab">Topic 3</div>
-</div> -->
-
-<!--  Create a set of tabs that display different content when clicked -->
-<!-- Highlight the active tab -->
-
-<!-- <div class="tab-buttons">
-  <button onclick="showTab(0)" class="tab-button active">Tab 1</button>
-  <button onclick="showTab(1)" class="tab-button">Tab 2</button>
-  <button onclick="showTab(2)" class="tab-button">Tab 3</button>
-</div>
-
-<div class="tab-contents">
-  <div class="tab active">This is the content of Tab 1.</div>
-  <div class="tab">This is the content of Tab 2.</div>
-  <div class="tab">This is the content of Tab 3.</div>
-</div> -->
-
-<!-- Hide/show content sections based on the selected tab -->
-
-<!-- <div class="tab-buttons">
-  <button onclick="showTab(0)" class="tab-button active">Tab 1</button>
-  <button onclick="showTab(1)" class="tab-button">Tab 2</button>
-  <button onclick="showTab(2)" class="tab-button">Tab 3</button>
-</div>
-
-<div class="tab-contents">
-  <div class="tab active">This is content for Tab 1.</div>
-  <div class="tab">This is content for Tab 2.</div>
-  <div class="tab">This is content for Tab 3.</div>
-</div> -->
-
+<div class="dots"></div>
 
 </body>
 </html>
