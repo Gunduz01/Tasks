@@ -1,7 +1,14 @@
+document.cookie = "profile=Gunduz; expires=Thu, 05 Jun 2025 23:59:59 GMT; path=/";
+
+
 const slides = document.querySelectorAll<HTMLDivElement>(".slide");
 const nextBtn = document.querySelector<HTMLButtonElement>(".btn-next");
 const prevBtn = document.querySelector<HTMLButtonElement>(".btn-prev");
 const dotsContainer = document.querySelector<HTMLDivElement>(".dots");
+const text = document.getElementsByClassName("text-p")[0] as HTMLElement;
+const dayBtn = document.getElementById("dayBtn");
+const nightBtn = document.getElementById("nightBtn");
+const body = document.body
 
 let currentSlide = 0;
 const totalSlides = slides.length;
@@ -63,3 +70,38 @@ dotsContainer?.addEventListener("click", (e: MouseEvent) => {
     }
   }
 });
+
+function themeDay(){
+  if(body.style.backgroundColor === `white`){
+    localStorage.setItem("tema", "gunduz");
+  } else{
+    body.style.backgroundColor = `white`
+    text.style.color = `midnightblue`
+  }
+}
+
+function themeNight(){
+  if(body.style.backgroundColor === `white`){
+    body.style.backgroundColor = `black`
+    text.style.color = `white`
+    localStorage.setItem("tema", "gece");
+  }else{
+
+  }
+}
+
+window.onload = function() {
+  const tema = localStorage.getItem("tema");
+  if (tema === "gece") {
+    document.body.style.backgroundColor = "black";
+    text.style.color = `white`
+  } else {
+    document.body.style.backgroundColor = "white";
+    text.style.color = `midnightblue`
+  }
+}
+
+console.log(document.cookie);
+
+dayBtn?.addEventListener("click", themeDay)
+nightBtn?.addEventListener("click", themeNight)
