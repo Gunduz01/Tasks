@@ -1,0 +1,127 @@
+/* Genel arka plan ve font */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Loading ekranı */
+.loading {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(255,255,255,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.loading__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 32px 48px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.loading__spinner {
+  width: 48px;
+  height: 48px;
+  border: 6px solid #fda085;
+  border-top: 6px solid #f6d365;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading__text {
+  font-size: 1.2rem;
+  color: #ff6f61;
+  letter-spacing: 1px;
+}
+
+/* Progress alanı */
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.progress__container {
+  width: 340px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+  padding: 32px 24px 24px 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress__bar {
+  width: 100%;
+  height: 18px;
+  background: #ffe0c3;
+  border-radius: 9px;
+  overflow: hidden;
+  margin-bottom: 18px;
+  position: relative;
+}
+.progress__bar::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #f6d365 0%, #fda085 100%);
+  border-radius: 9px;
+  transition: width 0.4s cubic-bezier(.4,2,.6,1);
+  position: absolute;
+  left: 0; top: 0;
+  z-index: 1;
+}
+
+/* JS ile .progress__bar'a style="--progress: 60%;" gibi width atanmalı */
+
+.progress__text {
+  font-size: 1.1rem;
+  color: #ff6f61;
+  margin: 0;
+}
+
+.progress__percentage {
+  font-weight: bold;
+  color: #fda085;
+}
+
+/* Start butonu */
+.prgBtn {
+  background: linear-gradient(90deg, #f6d365 0%, #fda085 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(255,111,97,0.10);
+  transition: background 0.2s, transform 0.2s;
+  margin-top: 10px;
+}
+
+.prgBtn:hover {
+  background: linear-gradient(90deg, #fda085 0%, #f6d365 100%);
+  transform: scale(1.05);
+}
